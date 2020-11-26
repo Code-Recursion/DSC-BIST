@@ -16,8 +16,9 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 dsc-bist
 ├── .firebase
-│   └── default.md
+│   └── .cache
 ├── build
+│   └── satic
 ├── node_modules
 ├── public
 ├── src
