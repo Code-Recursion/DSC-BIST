@@ -55,7 +55,7 @@ const App = () => {
           component={Error}
         />
 
-        <Redirect to="/error" component={Error} />
+        {/* <Redirect to="/error" component={Error} /> */}
       </Switch>
     </>
   );
