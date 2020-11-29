@@ -1,0 +1,67 @@
+.img-container {
+  height: 8rem;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none !important;
+}
+.top-main-container {
+  position: relative;
+  bottom: 1rem;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-banner {
+  width: 40rem !important;
+}
+.gear {
+  position: relative;
+  left: 60.5%;
+  bottom: 5rem;
+  width: 6rem;
+  animation: rotate linear 8s infinite;
+}
+
+.floating-anim {
+  animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 786px) {
+  .top-container {
+    position: relative;
+    bottom: 2rem;
+  }
+  .top-dsc-logo {
+    padding-top: 2rem !important;
+    width: 25rem !important;
+  }
+}

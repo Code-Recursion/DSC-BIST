@@ -97,10 +97,6 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div
-        className="container pb-5 pt-5"
-        id="about1"
-      ></div>
     </>
   );
 };
