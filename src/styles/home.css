@@ -23,9 +23,9 @@ a {
   width: 40rem !important;
 }
 .gear {
-  position: relative;
-  left: 60.5%;
-  bottom: 5rem;
+  position: absolute;
+  left: 56.5%;
+  bottom: 15rem;
   width: 6rem;
   animation: rotate linear 8s infinite;
 }
@@ -56,12 +56,14 @@ a {
 }
 
 @media (max-width: 786px) {
+  .top-banner {
+    width:100vw;
+  }
   .top-container {
     position: relative;
     bottom: 2rem;
   }
   .top-dsc-logo {
     padding-top: 2rem !important;
-    width: 25rem !important;
   }
 }

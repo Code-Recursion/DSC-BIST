@@ -5,6 +5,7 @@ import homeHero from "../resources/Home/Home-hero-img.svg";
 import gear from "../resources/Home/gear.svg";
 
 import "../styles/home.css";
+
 const Home = () => {
   return (
     <>
@@ -46,7 +47,7 @@ const Home = () => {
           </span>
         </h4>
 
-        <div className="floating-anim mx-auto d-lg-flex d-block">
+        <div className="floating-anim mx-auto d-lg-flex d-block ">
           <img
             src={gear}
             alt=""
@@ -55,7 +56,7 @@ const Home = () => {
           <img
             src={homeHero}
             alt=""
-            className=" img-fluid mx-auto"
+            className=" img-fluid mx-auto mt-lg-0 mt-5"
           />
         </div>
       </section>

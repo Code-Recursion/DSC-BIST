@@ -48,10 +48,10 @@ p {
   text-align: center;
 }
 
-h2 .heading {
+.heading {
   color: #000;
 }
-h4, .sub-heading {
+.sub-heading {
   font-size: 1.2rem !important;
   color: #9a9a9a;
 }
