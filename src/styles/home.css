@@ -1,3 +1,4 @@
+/* home-1 */
 .img-container {
   height: 8rem;
 }
@@ -57,7 +58,7 @@ a {
 
 @media (max-width: 786px) {
   .top-banner {
-    width:100vw;
+    width: 100vw;
   }
   .top-container {
     position: relative;
@@ -66,4 +67,11 @@ a {
   .top-dsc-logo {
     padding-top: 2rem !important;
   }
+}
+
+/* home-2 */
+.section-home-2 {
+  background: url("../resources/Home/home-2.png");
+  background-size: cover;
+  background-position: center;
 }
