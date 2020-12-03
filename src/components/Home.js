@@ -34,7 +34,6 @@ const Home = () => {
 
             <a
               href="https://dsc.community.dev/bansal-institute-of-science-and-technology-bhopal/"
-              target="_blank"
               className="chapter-link"
             >
               <button className="btn-purple mx-auto d-lg-block d-flex mt-2">
@@ -124,7 +123,7 @@ const Home = () => {
             with
           </h2>
 
-          <div className="row mx-lg-5 mt-2">
+          <div className="row mx-lg-5 mx-0 mt-2">
             <div className="col-lg-6 col-12">
               <ul>
                 <li className="sub-heading mb-lg-5 mb-2">
