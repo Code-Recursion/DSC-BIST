@@ -66,7 +66,11 @@ const Contact = () => {
                     <img src={instagram} alt="" />
                   </a>
 
+<<<<<<< HEAD
                   <a href="#">
+=======
+                  <a rel="noreferrer" target="_blank" href="#">
+>>>>>>> 468ec03 (Contact Page Update)
                     <img src={facebook} alt="" />
                   </a>
 

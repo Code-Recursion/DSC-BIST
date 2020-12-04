@@ -1,11 +1,15 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
+=======
+>>>>>>> 468ec03 (Contact Page Update)
 #heading-wraper {
   display: flex;
   align-items: center;
   flex-direction: column;
   margin-top: 110px;
 }
+<<<<<<< HEAD
 .contact-heading {
   font-family: Roboto;
   font-style: normal;
@@ -22,15 +26,35 @@
   text-align: center;
   color: #9a9a9a;
 }
+=======
+
+.contact-heading {
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.contact-sub-heading {
+  font-size: 36px;
+  text-align: center;
+  color: #9a9a9a;
+}
+
+>>>>>>> 468ec03 (Contact Page Update)
 #img-box {
   margin-top: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+<<<<<<< HEAD
 #mail-box-img {
   width: 80%;
   height: auto;
+=======
+
+#mail-box-img {
+  width: 70%;
+>>>>>>> 468ec03 (Contact Page Update)
 }
 
 .contact-form {
@@ -39,20 +63,39 @@
   flex-direction: column;
   margin-top: 110px;
 }
+<<<<<<< HEAD
 #form {
   width: 400px;
 }
+=======
+
+#form {
+  width: 60%;
+}
+
+>>>>>>> 468ec03 (Contact Page Update)
 #form input {
   margin-bottom: 20px;
   border: 2px solid gray;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 468ec03 (Contact Page Update)
 #form textarea {
   margin-bottom: 20px;
   border: 2px solid gray;
 }
+<<<<<<< HEAD
 #form button {
   font-weight: 700;
   font-size: 28px;
+=======
+
+#form button {
+  font-weight: 600;
+  font-size: 24px;
+>>>>>>> 468ec03 (Contact Page Update)
   width: 100%;
   height: 60px;
   background: #3a28b1;
@@ -67,6 +110,7 @@
 .social-contact a {
   margin: 10px;
 }
+<<<<<<< HEAD
 
 @media only screen and (max-width: 990px) {
   #mail-box-img {
@@ -105,3 +149,5 @@
     margin-top: 55px;
   }
 }
+=======
+>>>>>>> 468ec03 (Contact Page Update)
