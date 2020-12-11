@@ -34,7 +34,7 @@ const Workshop = () => {
               
             <div className="row " id="pack" >
              <div className="col-9">
-             <div className="text-left mt-lg-auto">
+             <div className="text-center mt-lg-auto">
                <p className="p-0 m-0">Date: 9 Oct 2020 - 8:00PM (IST) </p>
                <p className="p-0 m-0">Register: bitly.com/gcpcc-student</p>
                <p className="p-0 m-0">Event Venue: Online Zoom meet</p>
