@@ -202,12 +202,7 @@ const Home = () => {
                   Concept of DSC
                 </h4>
                 <p className="text-center">
-                  DSC activities are targeted at
-                  University students and any
-                  others including faculty members
-                  who want to learn development
-                  skills & work to solve real-life
-                  problems.
+                The DSC program is a grassroots channel through which Google provides development skills, mobile and web development skills for students, towards employability.
                 </p>
               </div>
             </div>
