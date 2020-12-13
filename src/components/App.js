@@ -8,8 +8,7 @@ import Contact from "./Contact";
 import Error from "./Error";
 import {
   Switch,
-  Route,
-  Redirect,
+  Route
 } from "react-router-dom";
 
 // Bootstrap
@@ -54,8 +53,6 @@ const App = () => {
           path="/error"
           component={Error}
         />
-
-        {/* <Redirect to="/error" component={Error} /> */}
       </Switch>
     </>
   );
