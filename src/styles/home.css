@@ -90,3 +90,36 @@ a {
 .card p img {
   width: 2rem;
 }
+
+/* home -6 */
+/* 
+@media (min-width: 786px) {
+  iframe {
+    width: "675";
+    height: "312";
+    display: block;
+  }
+}  */
+
+@media (max-width: 786px) {
+  iframe {
+    width: "100%" !important;
+    height: "312";
+    display: block;
+  }
+}
+
+.btn-purple-hover {
+  border: 0.15rem solid #7510f7 !important;
+  width: fit-content;
+  border-radius: 3rem !important;
+  padding: 0.3rem 1rem !important;
+  transition-duration: 0.5s;
+  font-size: 1rem !important;
+  background: #7510f7;
+  color: #fff !important;
+}
+
+.btn-purple-hover:focus {
+  outline: none !important;
+}

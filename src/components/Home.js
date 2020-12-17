@@ -4,11 +4,14 @@ import dscLogo from "../resources/Home/vertical-light-logo.svg";
 import homeHero from "../resources/Home/Home-hero-img.svg";
 import gear from "../resources/Home/gear.svg";
 import googleDev from "../resources/Home/google-dev.svg";
+import dscLogoDark from "../resources/Home/DarkVertical.svg";
+import copy from "../resources/Home/copy.svg";
 
 import award from "../resources/Home/award.svg";
 import user from "../resources/Home/users.svg";
 import checkCircle from "../resources/Home/check-circle.svg";
 
+import bist from "../resources/Home/bist.png";
 import "../styles/home.css";
 
 const Home = () => {
@@ -198,7 +201,12 @@ const Home = () => {
                   Concept of DSC
                 </h4>
                 <p className="text-center">
-                The DSC program is a grassroots channel through which Google provides development skills, mobile and web development skills for students, towards employability.
+                  The DSC program is a grassroots
+                  channel through which Google
+                  provides development skills,
+                  mobile and web development
+                  skills for students, towards
+                  employability.
                 </p>
               </div>
             </div>
@@ -206,6 +214,110 @@ const Home = () => {
         </div>
       </section>
       {/* 3 Home - 3 end */}
+
+      {/* 6 Home - 6 start */}
+      <section className="section-home-6">
+        <div className="h-100 row m-0">
+          <div className="col-lg-6 col-12 h-50 p-0">
+            <div>
+              <iframe
+                className=""
+                width="100%"
+                height="312px"
+                src="https://maps.google.com/maps?width=675&amp;height=312&amp;hl=en&amp;q=Developer%20Student%20Clubs%20Bansal%20Institute%20of%20Science%20and%20Technology%20kokta%20bhopal+(Developer%20Student%20Clubs%20Bansal%20Institute%20of%20Science%20and%20Technology)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              ></iframe>
+            </div>
+          </div>
+          <div className="col-lg-6 col-12 p-0">
+            <div className="bist-img-container m-0 d-none d-lg-block">
+              <img src={bist} height="318px" width="100%" className="img-fluid"/>
+          </div>
+          </div>
+
+          <div className="col-12 bg-footer h-50 ">
+            <div className="footer-section">
+              <div className="row d-flex justify-content-center align-items-center my-2 mx-0">
+                <div class="col-lg-3 col-12 text-center">
+                  <div className="row m-0">
+                    <img
+                      src={dscLogoDark}
+                      alt="logo"
+                    />
+                    <p className="text-lg-left text-light-grey">
+                      <p className="p-0 m-0">
+                        Ajay Singh
+                      </p>
+                      <p className="p-0 m-0">
+                        Developer Student Clubs
+                        Lead{" "}
+                      </p>
+                      <p className="p-0 m-0">
+                        +917389972225 |
+                        dsc.bist@gmail.com
+                      </p>
+                      <p className="p-0 m-0">
+                        Kokta,Anand Nagar, Raisen
+                        Road
+                      </p>
+                      <p className="p-0 m-0">
+                        Bhopal 462021 (M.P.) INDIA
+                      </p>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-12 text-center text-white p-0">
+                  <p className="">Programs</p>
+                  <p className="text-light-grey">
+                    Developer Student Clubs
+                  </p>
+                  <p className="text-light-grey">
+                    Google Developer Experts
+                  </p>
+                  <p className="text-light-grey">
+                    Google Developer Groups
+                  </p>
+                  <p className="text-light-grey">
+                    Women Techmakers
+                  </p>
+                  <a herf="https://dsc.community.dev/bansal-institute-of-science-and-technology-bhopal/">
+                    <button className="btn-purple-hover">
+                      Chapter
+                    </button>
+                  </a>
+                </div>
+                <div class="col-lg-2 col-12 text-center text-white p-0 mt-lg-0 mt-4">
+                  <p className="">Developers</p>
+                  <p className="text-light-grey">
+                    Google Cloud Platform
+                  </p>
+                  <p className="text-light-grey">
+                    Firebase Console
+                  </p>
+                  <p className="text-light-grey">
+                    Flutter
+                  </p>
+                </div>
+                <div class="col-lg-2 col-12 text-center text-white p-0">
+                  <p className="">Contribute</p>
+                  <p className="text-light-grey">
+                    Found a bug?
+                  </p>
+                  <p className="text-light-grey">
+                    Contribute
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer className="text-center text-white bg-purple p-1">
+          Made by Team of DSC-BIST 2020 Copyright &nbsp;
+          <span>
+            <img src={copy} />
+          </span>
+        </footer>
+      </section>
+      {/* 6 Home - 6 end */}
     </>
   );
 };

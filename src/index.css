@@ -11,8 +11,8 @@ html {
 }
 
 section {
-  height: 90vh;
-  margin-top: 10vh;
+  height: 100% !important;
+  margin-top: 10vh !important;
 }
 
 /* btn */
@@ -22,7 +22,7 @@ section {
   width: fit-content;
   border-radius: 3rem !important;
   padding: 0.3rem 1rem !important;
-  transition-duration: .5s;
+  transition-duration: 0.5s;
   font-size: 1rem !important;
 }
 
@@ -42,9 +42,26 @@ section {
 .heading {
   color: #000;
 }
+
+.bg-footer {
+  background: #292d33 !important;
+}
+
 .sub-heading {
   font-size: 1.2rem !important;
   color: #9a9a9a;
+}
+
+.text-light-grey {
+  color: #9a9a9a;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.bg-purple {
+  background-color: #7510f7;
 }
 
 .text-purple {
