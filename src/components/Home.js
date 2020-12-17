@@ -219,7 +219,51 @@ const Home = () => {
       </section>
       {/* 3 Home - 3 end */}
 
-<<<<<<< HEAD
+      {/* 4 Home - 4 start */}
+      <section className="section-home-4">
+        <div className="centre-img">
+          <div className="container">
+            <h4 className="sub-heading text-muted text-centre mb-5 heading-1">
+              Google's developer community
+              programs empower you to :
+            </h4>
+          </div>
+          <img
+            src={blue}
+            alt="Responsive image"
+            className="centre-img"
+          />
+          <img
+            src={people}
+            alt=""
+            className="inner-image"
+          />
+          <img
+            src={bar}
+            alt=""
+            className="inner-image-c"
+          />
+          <img
+            src={reward}
+            alt=""
+            className="inner-image-l"
+          />
+          <h10 className="centre-left">
+            Connect with fellow developers in your
+            area.
+          </h10>
+          <h10 className="centre-text">
+            Get inspired by those around you, hear
+            from industry experts, and solve
+            problems together.
+          </h10>
+          <h10 className="centre-right">
+            Learn new skills through in-person
+            training sessions and workshops.
+          </h10>
+        </div>
+      </section>
+
       {/* 6 Home - 6 start */}
       <section className="section-home-6">
         <div className="h-100 row m-0">
@@ -235,8 +279,13 @@ const Home = () => {
           </div>
           <div className="col-lg-6 col-12 p-0">
             <div className="bist-img-container m-0 d-none d-lg-block">
-              <img src={bist} height="318px" width="100%" className="img-fluid"/>
-          </div>
+              {/* <img
+                src={bist}
+                height="318px"
+                width="100%"
+                className="img-fluid"
+              /> */}
+            </div>
           </div>
 
           <div className="col-12 bg-footer h-50 ">
@@ -316,54 +365,14 @@ const Home = () => {
           </div>
         </div>
         <footer className="text-center text-white bg-purple p-1">
-          Made by Team of DSC-BIST 2020 Copyright &nbsp;
+          Made by Team of DSC-BIST 2020 Copyright
+          &nbsp;
           <span>
             <img src={copy} />
           </span>
         </footer>
       </section>
       {/* 6 Home - 6 end */}
-=======
-      {/* 4 Home - 4 start */}
-      <section className="section-home-4">
-        <div className="centre-img">
-          <div className="container">
-            <h4 className="sub-heading text-muted text-centre mb-5 heading-1">
-              Google's developer community programs empower you to :
-          </h4>
-          </div>
-          <img
-            src={blue}
-            alt="Responsive image"
-            className="centre-img"
-          />
-          <img
-            src={people}
-            alt=""
-            className="inner-image"
-          />
-          <img
-            src={bar}
-            alt=""
-            className="inner-image-c"
-          />
-          <img
-            src={reward}
-            alt=""
-            className="inner-image-l"
-          />
-          <h10 className="centre-left">
-            Connect with fellow developers in your area.
-            </h10>
-          <h10 className="centre-text">
-            Get inspired by those around you, hear from industry experts, and solve problems together.
-            </h10>
-          <h10 className="centre-right">
-            Learn new skills through in-person training sessions and workshops.
-            </h10>
-        </div>
-      </section>
->>>>>>> 94e4e9c84da9564039e99440fb62ca0f510a1592
     </>
   );
 };
