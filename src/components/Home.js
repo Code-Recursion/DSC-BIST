@@ -6,6 +6,10 @@ import gear from "../resources/Home/gear.svg";
 import googleDev from "../resources/Home/google-dev.svg";
 import dscLogoDark from "../resources/Home/DarkVertical.svg";
 import copy from "../resources/Home/copy.svg";
+import blue from "../resources/Home/home-4blue.svg";
+import reward from "../resources/Home/reward.svg";
+import people from "../resources/Home/people.svg";
+import bar from "../resources/Home/bar-chart-2.svg";
 
 import award from "../resources/Home/award.svg";
 import user from "../resources/Home/users.svg";
@@ -120,7 +124,7 @@ const Home = () => {
 
       {/* 3 Home - 3 Start */}
       <section className="section-home-3 d-lg-flex d-block justify-content-center align-items-center">
-        <div>
+        <div className="container">
           <h2 className="heading text-center mb-5">
             Opportunities DSCs provide students
             with
@@ -215,6 +219,7 @@ const Home = () => {
       </section>
       {/* 3 Home - 3 end */}
 
+<<<<<<< HEAD
       {/* 6 Home - 6 start */}
       <section className="section-home-6">
         <div className="h-100 row m-0">
@@ -318,6 +323,47 @@ const Home = () => {
         </footer>
       </section>
       {/* 6 Home - 6 end */}
+=======
+      {/* 4 Home - 4 start */}
+      <section className="section-home-4">
+        <div className="centre-img">
+          <div className="container">
+            <h4 className="sub-heading text-muted text-centre mb-5 heading-1">
+              Google's developer community programs empower you to :
+          </h4>
+          </div>
+          <img
+            src={blue}
+            alt="Responsive image"
+            className="centre-img"
+          />
+          <img
+            src={people}
+            alt=""
+            className="inner-image"
+          />
+          <img
+            src={bar}
+            alt=""
+            className="inner-image-c"
+          />
+          <img
+            src={reward}
+            alt=""
+            className="inner-image-l"
+          />
+          <h10 className="centre-left">
+            Connect with fellow developers in your area.
+            </h10>
+          <h10 className="centre-text">
+            Get inspired by those around you, hear from industry experts, and solve problems together.
+            </h10>
+          <h10 className="centre-right">
+            Learn new skills through in-person training sessions and workshops.
+            </h10>
+        </div>
+      </section>
+>>>>>>> 94e4e9c84da9564039e99440fb62ca0f510a1592
     </>
   );
 };
