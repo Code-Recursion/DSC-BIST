@@ -1,60 +1,30 @@
-<<<<<<< HEAD
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-
-=======
->>>>>>> 468ec03 (Contact Page Update)
 #heading-wraper {
   display: flex;
   align-items: center;
   flex-direction: column;
   margin-top: 110px;
 }
-<<<<<<< HEAD
-.contact-heading {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 56px;
-}
-.contact-sub-heading {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 102.45%;
-  text-align: center;
-  color: #9a9a9a;
-}
-=======
 
 .contact-heading {
   font-weight: bold;
-  font-size: 48px;
+  font-size: 36px;
 }
 
 .contact-sub-heading {
-  font-size: 36px;
+  font-size: 26px;
   text-align: center;
   color: #9a9a9a;
 }
 
->>>>>>> 468ec03 (Contact Page Update)
 #img-box {
   margin-top: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-<<<<<<< HEAD
-#mail-box-img {
-  width: 80%;
-  height: auto;
-=======
 
 #mail-box-img {
-  width: 70%;
->>>>>>> 468ec03 (Contact Page Update)
+  width: 60%;
 }
 
 .contact-form {
@@ -63,39 +33,24 @@
   flex-direction: column;
   margin-top: 110px;
 }
-<<<<<<< HEAD
-#form {
-  width: 400px;
-}
-=======
 
 #form {
   width: 60%;
 }
 
->>>>>>> 468ec03 (Contact Page Update)
 #form input {
   margin-bottom: 20px;
   border: 2px solid gray;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> 468ec03 (Contact Page Update)
 #form textarea {
   margin-bottom: 20px;
   border: 2px solid gray;
 }
-<<<<<<< HEAD
-#form button {
-  font-weight: 700;
-  font-size: 28px;
-=======
 
 #form button {
   font-weight: 600;
   font-size: 24px;
->>>>>>> 468ec03 (Contact Page Update)
   width: 100%;
   height: 60px;
   background: #3a28b1;
@@ -110,44 +65,3 @@
 .social-contact a {
   margin: 10px;
 }
-<<<<<<< HEAD
-
-@media only screen and (max-width: 990px) {
-  #mail-box-img {
-    width: 70%;
-    height: auto;
-  }
-  #img-box {
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .contact-form {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 55px;
-  }
-}
-@media only screen and (max-width: 600px) {
-  #mail-box-img {
-    width: 90%;
-    display: inline-block;
-    height: auto;
-  }
-  #img-box {
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .contact-form {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 55px;
-  }
-}
-=======
->>>>>>> 468ec03 (Contact Page Update)
