@@ -8,7 +8,7 @@
 
 .container div.row {
     margin: 0 150px 0 150px;
-    background-image: linear-gradient(#f5eaeaa8, #fff);
+    /* background-image: linear-gradient(#f5eaeaa8, #fff); */
 }
 
 .team-description {

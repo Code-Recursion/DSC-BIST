@@ -25,52 +25,29 @@ const Home = () => {
       <section className="section-home-1">
         <div className="row m-0 bg-grey top-main-container">
           <div className="col-12 col-lg-8 p-0">
-            <img
-              src={topBanner}
-              class="img-fluid top-banner"
-              alt="topbanner"
-            />
+            <img src={topBanner} class="img-fluid top-banner" alt="topbanner" />
           </div>
 
           <div className="col-12 col-lg-4 p-0 bg-grey my-lg-auto py-2 top-container">
-            <img
-              src={dscLogo}
-              class="img-container top-dsc-logo"
-              alt="dsclogo"
-            />
+            <img src={dscLogo} class="img-container top-dsc-logo" alt="dsclogo" />
 
             <a
               href="https://dsc.community.dev/bansal-institute-of-science-and-technology-bhopal/"
-              className="chapter-link"
-            >
-              <button className="btn-purple mx-auto d-lg-block d-flex mt-2">
-                Chapter
-              </button>
+              className="chapter-link">
+              <button className="btn-purple mx-auto d-lg-block d-flex mt-2">Chapter</button>
             </a>
           </div>
         </div>
         <h4 className="sub-heading text-center mt-2">
           Helping students bridge the gap between
-          <span className="text-purple">
-            &nbsp;theory
-          </span>
+          <span className="text-purple">&nbsp;theory</span>
           &nbsp;and
-          <span className="text-purple">
-            &nbsp;practice
-          </span>
+          <span className="text-purple">&nbsp;practice</span>
         </h4>
 
         <div className="floating-anim mx-auto d-lg-flex d-block ">
-          <img
-            src={gear}
-            alt=""
-            className="gear d-lg-block d-none"
-          />
-          <img
-            src={homeHero}
-            alt=""
-            className=" img-fluid mx-auto mt-lg-0 mt-5"
-          />
+          <img src={gear} alt="" className="gear d-lg-block d-none" />
+          <img src={homeHero} alt="" className=" img-fluid mx-auto mt-lg-0 mt-5" />
         </div>
       </section>
       {/* 1 Home - 1 end */}
@@ -81,39 +58,23 @@ const Home = () => {
         <div className="container">
           <div className="row m-0 p-0">
             <div className="col-12 text-center">
-              <img
-                className="img-fluid mt-5"
-                src={dscLogo}
-                alt="google-dev"
-              />
+              <img className="img-fluid mt-5" src={dscLogo} alt="google-dev" />
             </div>
             <div className="col-12 text-center">
               <p className="sub-heading">
-                Developer Student clubs is a
-                flagship program by &nbsp;
+                Developer Student clubs is a flagship program by &nbsp;
                 <span>
-                  <img
-                    className=" google-dev"
-                    src={googleDev}
-                    alt="google-dev"
-                  />
+                  <img className=" google-dev" src={googleDev} alt="google-dev" />
                 </span>
               </p>
             </div>
             <div className="col-12">
               <p className="text-center">
-                Developer Student Clubs are
-                university based community groups
-                for students interested in Google
-                developer technologies.Students
-                from all undergraduate or graduate
-                programs with an interest in
-                growing as a developer are
-                welcome. By joining a DSC,
-                students grow their knowledge in a
-                peer-to-peer learning environment
-                and build solutions for local
-                businesses and their community.
+                Developer Student Clubs are university based community groups for students
+                interested in Google developer technologies.Students from all undergraduate or
+                graduate programs with an interest in growing as a developer are welcome. By joining
+                a DSC, students grow their knowledge in a peer-to-peer learning environment and
+                build solutions for local businesses and their community.
               </p>
             </div>
           </div>
@@ -125,24 +86,17 @@ const Home = () => {
       {/* 3 Home - 3 Start */}
       <section className="section-home-3 d-lg-flex d-block justify-content-center align-items-center">
         <div className="container">
-          <h2 className="heading text-center mb-5">
-            Opportunities DSCs provide students
-            with
-          </h2>
+          <h2 className="heading text-center mb-5">Opportunities DSCs provide students with</h2>
 
           <div className="row mx-lg-5 mx-0 mt-2">
             <div className="col-lg-6 col-12">
               <ul>
                 <li className="sub-heading mb-lg-5 mb-2">
-                  Grow their knowledge on
-                  developer technologies and more
-                  through peer to peer workshops
-                  and events.
+                  Grow their knowledge on developer technologies and more through peer to peer
+                  workshops and events.
                 </li>
                 <li className="sub-heading">
-                  Gain relevant industry
-                  experience by solving problems
-                  for local organizations with
+                  Gain relevant industry experience by solving problems for local organizations with
                   technology based solutions.
                 </li>
               </ul>
@@ -150,14 +104,11 @@ const Home = () => {
             <div className="col-lg-6 col-12">
               <ul>
                 <li className="sub-heading mb-lg-5 mb-2">
-                  Showcase their prototypes and
-                  solutions to their local
-                  community and industry leaders.
+                  Showcase their prototypes and solutions to their local community and industry
+                  leaders.
                 </li>
                 <li className="sub-heading">
-                  Getting inspiration to become
-                  world-class developers and
-                  changemakers from sharing
+                  Getting inspiration to become world-class developers and changemakers from sharing
                   others' success stories.
                 </li>
               </ul>
@@ -169,15 +120,10 @@ const Home = () => {
                 <p className="text-center">
                   <img src={award} />
                 </p>
-                <h4 className="text-center">
-                  Why DSC?
-                </h4>
+                <h4 className="text-center">Why DSC?</h4>
                 <p className="text-center">
-                  For students to learn
-                  development skills, solve
-                  problems through technology and
-                  inspire them to be world class
-                  developers and changemakers.
+                  For students to learn development skills, solve problems through technology and
+                  inspire them to be world class developers and changemakers.
                 </p>
               </div>
             </div>
@@ -185,15 +131,10 @@ const Home = () => {
               <p className="text-center">
                 <img src={user} />
               </p>
-              <h4 className="text-center">
-                Target Audience
-              </h4>
+              <h4 className="text-center">Target Audience</h4>
               <p className="text-center">
-                DSC activities are targeted at
-                University students and any others
-                including faculty members who want
-                to learn development skills & work
-                to solve real-life problems.
+                DSC activities are targeted at University students and any others including faculty
+                members who want to learn development skills & work to solve real-life problems.
               </p>
             </div>
             <div class="card mx-lg-2">
@@ -201,16 +142,10 @@ const Home = () => {
                 <p className="text-center">
                   <img src={checkCircle} />
                 </p>
-                <h4 className="text-center">
-                  Concept of DSC
-                </h4>
+                <h4 className="text-center">Concept of DSC</h4>
                 <p className="text-center">
-                  The DSC program is a grassroots
-                  channel through which Google
-                  provides development skills,
-                  mobile and web development
-                  skills for students, towards
-                  employability.
+                  The DSC program is a grassroots channel through which Google provides development
+                  skills, mobile and web development skills for students, towards employability.
                 </p>
               </div>
             </div>
@@ -220,47 +155,35 @@ const Home = () => {
       {/* 3 Home - 3 end */}
 
       {/* 4 Home - 4 start */}
-      <section className="section-home-4">
-        <div className="centre-img">
-          <div className="container">
-            <h4 className="sub-heading text-muted text-centre mb-5 heading-1">
-              Google's developer community
-              programs empower you to :
-            </h4>
+      <section className="section-home-4 d-flex flex-column justify-content-center align-items-center">
+        <h2 className="sub-heading mb-5">Google's developer community programs empower you to : </h2>
+        <div className="section-4-inner-container d-flex justify-content-center align-items-center">
+          <div className="row d-flex justify-content-center align-items-center m-0 p-0 bg-purple">
+            <div className="col-12 col-lg-3 m-0 p-0 d-flex justify-content-around">
+              <div className="section-4-card">
+                <div className="p-4">
+                  <img src={people} />
+                </div>
+                <div>Connect with fellow developers in your area.</div>
+              </div>
+            </div>
+            <div className="col-12 col-lg-3 m-0 p-0 d-flex justify-content-around">
+              <div className="section-4-card">
+                <div className="p-4">
+                  <img src={bar} />
+                </div>
+                <div>Connect with fellow developers in your area.</div>
+              </div>
+            </div>
+            <div className="col-12 col-lg-3 m-0 p-0 d-flex justify-content-around">
+              <div className="section-4-card">
+                <div className="p-4">
+                  <img src={reward} />
+                </div>
+                <div>Connect with fellow developers in your area.</div>
+              </div>
+            </div>
           </div>
-          <img
-            src={blue}
-            alt="Responsive image"
-            className="centre-img"
-          />
-          <img
-            src={people}
-            alt=""
-            className="inner-image"
-          />
-          <img
-            src={bar}
-            alt=""
-            className="inner-image-c"
-          />
-          <img
-            src={reward}
-            alt=""
-            className="inner-image-l"
-          />
-          <h10 className="centre-left">
-            Connect with fellow developers in your
-            area.
-          </h10>
-          <h10 className="centre-text">
-            Get inspired by those around you, hear
-            from industry experts, and solve
-            problems together.
-          </h10>
-          <h10 className="centre-right">
-            Learn new skills through in-person
-            training sessions and workshops.
-          </h10>
         </div>
       </section>
 
@@ -272,19 +195,13 @@ const Home = () => {
               <iframe
                 className=""
                 width="100%"
-                height="312px"
-                src="https://maps.google.com/maps?width=675&amp;height=312&amp;hl=en&amp;q=Developer%20Student%20Clubs%20Bansal%20Institute%20of%20Science%20and%20Technology%20kokta%20bhopal+(Developer%20Student%20Clubs%20Bansal%20Institute%20of%20Science%20and%20Technology)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-              ></iframe>
+                height="390px"
+                src="https://maps.google.com/maps?width=675&amp;height=312&amp;hl=en&amp;q=Developer%20Student%20Clubs%20Bansal%20Institute%20of%20Science%20and%20Technology%20kokta%20bhopal+(Developer%20Student%20Clubs%20Bansal%20Institute%20of%20Science%20and%20Technology)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
             </div>
           </div>
           <div className="col-lg-6 col-12 p-0">
-            <div className="bist-img-container m-0 d-none d-lg-block">
-              {/* <img
-                src={bist}
-                height="318px"
-                width="100%"
-                className="img-fluid"
-              /> */}
+            <div className="bist-img-container m-0">
+              <img className="img-fluid" src={bist} />
             </div>
           </div>
 
@@ -293,80 +210,62 @@ const Home = () => {
               <div className="row d-flex justify-content-center align-items-center my-2 mx-0">
                 <div class="col-lg-3 col-12 text-center">
                   <div className="row m-0">
-                    <img
-                      src={dscLogoDark}
-                      alt="logo"
-                    />
+                    <img src={dscLogoDark} alt="logo" />
                     <p className="text-lg-left text-light-grey">
-                      <p className="p-0 m-0">
-                        Ajay Singh
-                      </p>
-                      <p className="p-0 m-0">
-                        Developer Student Clubs
-                        Lead{" "}
-                      </p>
-                      <p className="p-0 m-0">
-                        +917389972225 |
-                        dsc.bist@gmail.com
-                      </p>
-                      <p className="p-0 m-0">
-                        Kokta,Anand Nagar, Raisen
-                        Road
-                      </p>
-                      <p className="p-0 m-0">
-                        Bhopal 462021 (M.P.) INDIA
-                      </p>
+                      <p className="p-0 m-0">Ajay Singh</p>
+                      <p className="p-0 m-0">Developer Student Clubs Lead </p>
+                      <p className="p-0 m-0">+917389972225 | dsc.bist@gmail.com</p>
+                      <p className="p-0 m-0">Kokta,Anand Nagar, Raisen Road</p>
+                      <p className="p-0 m-0">Bhopal 462021 (M.P.) INDIA</p>
                     </p>
                   </div>
                 </div>
                 <div class="col-lg-3 col-12 text-center text-white p-0">
                   <p className="">Programs</p>
-                  <p className="text-light-grey">
-                    Developer Student Clubs
-                  </p>
-                  <p className="text-light-grey">
-                    Google Developer Experts
-                  </p>
-                  <p className="text-light-grey">
-                    Google Developer Groups
-                  </p>
-                  <p className="text-light-grey">
-                    Women Techmakers
-                  </p>
+                  <a href="">
+                    <p className="text-light-grey">Developer Student Clubs</p>
+                  </a>
+                  <a href="">
+                    <p className="text-light-grey">Google Developer Experts</p>
+                  </a>
+                  <a href="">
+                    <p className="text-light-grey">Google Developer Groups</p>
+                  </a>
+                  <a href="">
+                    <p className="text-light-grey">Women Techmakers</p>
+                  </a>
                   <a herf="https://dsc.community.dev/bansal-institute-of-science-and-technology-bhopal/">
-                    <button className="btn-purple-hover">
-                      Chapter
-                    </button>
+                    <button className="btn-purple-hover">Chapter</button>
                   </a>
                 </div>
                 <div class="col-lg-2 col-12 text-center text-white p-0 mt-lg-0 mt-4">
                   <p className="">Developers</p>
-                  <p className="text-light-grey">
-                    Google Cloud Platform
-                  </p>
-                  <p className="text-light-grey">
-                    Firebase Console
-                  </p>
-                  <p className="text-light-grey">
-                    Flutter
-                  </p>
+                  <a href="">
+                    <p className="text-light-grey">Google Cloud Platform</p>
+                  </a>
+                  <a href="">
+                    <p className="text-light-grey">Firebase Console</p>
+                  </a>
+                  <a href="">
+                    <p className="text-light-grey">Flutter</p>
+                  </a>
                 </div>
                 <div class="col-lg-2 col-12 text-center text-white p-0">
                   <p className="">Contribute</p>
-                  <p className="text-light-grey">
-                    Found a bug?
-                  </p>
-                  <p className="text-light-grey">
-                    Contribute
-                  </p>
+                  <a href="">
+                    {" "}
+                    <p className="text-light-grey">Found a bug?</p>
+                  </a>
+                  <a href="">
+                    <p className="text-light-grey">Contribute</p>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <footer className="text-center text-white bg-purple p-1">
-          Made by Team of DSC-BIST 2020 Copyright
-          &nbsp;
+          Made by Team of DSC-BIST 2020 Copyright &nbsp;
           <span>
             <img src={copy} />
           </span>
