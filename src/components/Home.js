@@ -18,6 +18,7 @@ const Home = () => {
               alt="Responsive image"
             />
           </div>
+        
 
           <div className="col-12 col-lg-4 p-0 bg-grey my-lg-auto py-2 top-container">
             <img
