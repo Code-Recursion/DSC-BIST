@@ -13,7 +13,7 @@ const Workshop = () => {
   return ( 
   <section>
     <div className="container">
-        <div className="row no-gutters">
+        <div className="row m-0">
           <div className=" col-12 col-sm-12 col-md-12 col-lg-6">
             <div id="img-wrap">
             <img src={cloudimage} alt="" id="cloud-box-img" />
