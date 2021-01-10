@@ -3,3 +3,11 @@
   border-top:3px solid #7510f7;
   border-bottom:3px solid #7510f7;
 }
+
+.parent-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
