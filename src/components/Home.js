@@ -144,8 +144,12 @@ const Home = () => {
                 </p>
                 <h4 className="text-center">Concept of DSC</h4>
                 <p className="text-center">
-                  The DSC program is a grassroots channel through which Google provides development
-                  skills, mobile and web development skills for students, towards employability.
+                  DSC activities are targeted at
+                  University students and any
+                  others including faculty members
+                  who want to learn development
+                  skills and work to solve real-life
+                  problems.
                 </p>
               </div>
             </div>

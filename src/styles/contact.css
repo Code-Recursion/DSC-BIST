@@ -1,36 +1,30 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-
 #heading-wraper {
   display: flex;
   align-items: center;
   flex-direction: column;
   margin-top: 110px;
 }
+
 .contact-heading {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
-  font-size: 48px;
-  line-height: 56px;
-}
-.contact-sub-heading {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 36px;
-  line-height: 102.45%;
+}
+
+.contact-sub-heading {
+  font-size: 26px;
   text-align: center;
   color: #9a9a9a;
 }
+
 #img-box {
   margin-top: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 #mail-box-img {
-  width: 80%;
-  height: auto;
+  width: 60%;
 }
 
 .contact-form {
@@ -39,20 +33,24 @@
   flex-direction: column;
   margin-top: 110px;
 }
+
 #form {
-  width: 400px;
+  width: 60%;
 }
+
 #form input {
   margin-bottom: 20px;
   border: 2px solid gray;
 }
+
 #form textarea {
   margin-bottom: 20px;
   border: 2px solid gray;
 }
+
 #form button {
-  font-weight: 700;
-  font-size: 28px;
+  font-weight: 600;
+  font-size: 24px;
   width: 100%;
   height: 60px;
   background: #3a28b1;
@@ -66,42 +64,4 @@
 }
 .social-contact a {
   margin: 10px;
-}
-
-@media only screen and (max-width: 990px) {
-  #mail-box-img {
-    width: 70%;
-    height: auto;
-  }
-  #img-box {
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .contact-form {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 55px;
-  }
-}
-@media only screen and (max-width: 600px) {
-  #mail-box-img {
-    width: 90%;
-    display: inline-block;
-    height: auto;
-  }
-  #img-box {
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .contact-form {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 55px;
-  }
 }
