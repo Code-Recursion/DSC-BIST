@@ -27,6 +27,7 @@ const Home = () => {
           <div className="col-12 col-lg-8 p-0">
             <img src={topBanner} class="img-fluid top-banner" alt="topbanner" />
           </div>
+        
 
           <div className="col-12 col-lg-4 p-0 bg-grey my-lg-auto py-2 top-container">
             <img src={dscLogo} class="img-container top-dsc-logo" alt="dsclogo" />

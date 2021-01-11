@@ -2,6 +2,7 @@ import React from "react";
 import gcl from "../resources/Event/Google Cloud Logo.svg";
 import "../styles/event.css";
 
+
 const Event = () => {
   return (
     <section className="section-event-1 d-flex align-items-center justify-content-center">
