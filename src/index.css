@@ -7,12 +7,7 @@
 body,
 html {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco,
-    Consolas, "Courier New", monospace;
+  font-family: "Open Sans", sans-serif !important;
 }
 
 section {
@@ -42,10 +37,6 @@ section {
 
 .bg-grey {
   background-color: #f9f9f9;
-}
-
-p {
-  text-align: center;
 }
 
 .heading {
