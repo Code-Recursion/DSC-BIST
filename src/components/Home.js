@@ -6,7 +6,7 @@ import gear from "../resources/Home/gear.svg";
 import googleDev from "../resources/Home/google-dev.svg";
 import dscLogoDark from "../resources/Home/DarkVertical.svg";
 import copy from "../resources/Home/copy.svg";
-import blue from "../resources/Home/home-4blue.svg";
+
 import reward from "../resources/Home/reward.svg";
 import people from "../resources/Home/people.svg";
 import bar from "../resources/Home/bar-chart-2.svg";
@@ -156,7 +156,9 @@ const Home = () => {
 
       {/* 4 Home - 4 start */}
       <section className="section-home-4 d-flex flex-column justify-content-center align-items-center">
-        <h2 className="sub-heading mb-5">Google's developer community programs empower you to : </h2>
+        <h2 className="sub-heading mb-5">
+          Google's developer community programs empower you to :{" "}
+        </h2>
         <div className="section-4-inner-container d-flex justify-content-center align-items-center">
           <div className="row d-flex justify-content-center align-items-center m-0 p-0 bg-purple">
             <div className="col-12 col-lg-3 m-0 p-0 d-flex justify-content-around">
@@ -164,7 +166,7 @@ const Home = () => {
                 <div className="p-4">
                   <img src={people} />
                 </div>
-                <div>Connect with fellow developers in your area.</div>
+                <div className="text-white">Connect with fellow developers in your area.</div>
               </div>
             </div>
             <div className="col-12 col-lg-3 m-0 p-0 d-flex justify-content-around">
@@ -172,7 +174,10 @@ const Home = () => {
                 <div className="p-4">
                   <img src={bar} />
                 </div>
-                <div>Connect with fellow developers in your area.</div>
+                <div className="text-white">
+                  Get inspired by those around you, hear from industry experts, and solve problems
+                  together.
+                </div>
               </div>
             </div>
             <div className="col-12 col-lg-3 m-0 p-0 d-flex justify-content-around">
@@ -180,7 +185,9 @@ const Home = () => {
                 <div className="p-4">
                   <img src={reward} />
                 </div>
-                <div>Connect with fellow developers in your area.</div>
+                <div className="text-white">
+                  Learn new skills through in-person training sessions and workshops.
+                </div>
               </div>
             </div>
           </div>
@@ -214,24 +221,32 @@ const Home = () => {
                     <p className="text-lg-left text-light-grey">
                       <p className="p-0 m-0">Ajay Singh</p>
                       <p className="p-0 m-0">Developer Student Clubs Lead </p>
-                      <p className="p-0 m-0">+917389972225 | dsc.bist@gmail.com</p>
-                      <p className="p-0 m-0">Kokta,Anand Nagar, Raisen Road</p>
+                      <p className="p-0 m-0">
+                        <a href="tel:738-997-2225">
+                          <span className="text-light-grey">7389972225</span>
+                        </a>
+                        |
+                        <a href="mailto:someone@example.com">
+                          <span className="text-light-grey">dsc.bist@gmail.com</span>
+                        </a>
+                      </p>
+                      <p className="p-0 m-0">Kokta, Anand Nagar, Raisen Road</p>
                       <p className="p-0 m-0">Bhopal 462021 (M.P.) INDIA</p>
                     </p>
                   </div>
                 </div>
                 <div class="col-lg-3 col-12 text-center text-white p-0">
                   <p className="">Programs</p>
-                  <a href="">
+                  <a href="https://developers.google.com/community/dsc">
                     <p className="text-light-grey">Developer Student Clubs</p>
                   </a>
-                  <a href="">
+                  <a href="https://developers.google.com/community/experts">
                     <p className="text-light-grey">Google Developer Experts</p>
                   </a>
-                  <a href="">
+                  <a href="https://developers.google.com/community/gdg">
                     <p className="text-light-grey">Google Developer Groups</p>
                   </a>
-                  <a href="">
+                  <a href="https://developers.google.com/community/gdg">
                     <p className="text-light-grey">Women Techmakers</p>
                   </a>
                   <a herf="https://dsc.community.dev/bansal-institute-of-science-and-technology-bhopal/">
@@ -240,23 +255,22 @@ const Home = () => {
                 </div>
                 <div class="col-lg-2 col-12 text-center text-white p-0 mt-lg-0 mt-4">
                   <p className="">Developers</p>
-                  <a href="">
+                  <a href="https://console.cloud.google.com/">
                     <p className="text-light-grey">Google Cloud Platform</p>
                   </a>
-                  <a href="">
+                  <a href="https://firebase.google.com/">
                     <p className="text-light-grey">Firebase Console</p>
                   </a>
-                  <a href="">
+                  <a href="https://flutter.dev/">
                     <p className="text-light-grey">Flutter</p>
                   </a>
                 </div>
                 <div class="col-lg-2 col-12 text-center text-white p-0">
                   <p className="">Contribute</p>
-                  <a href="">
-                    {" "}
+                  <a href="mailto:helloajaysingh1@gmail.com?cc=dsc.bist@gmail.com&bcc=rupalgupta951@gmail.com,dhotesurekha39@gmail.com,aarti6264744312@gmail.com,gyanendrak874@gmail.com&subject=Found%20a%20bug%20in%20DSC-BIST%20Website&body=Hello%20i%20am%20%7Bname%7D%2C%20i%20have%20found%20a%20bug%20on%20your%20website%20DSC-BIST.%0D%0ADescription%20%3A%0D%0AFixes%20%3A%0D%0A%0D%0Acontribute%20%3A%20https%3A%2F%2Fgithub.com%2FCode-Recursion%2FDSC-BIST">
                     <p className="text-light-grey">Found a bug?</p>
                   </a>
-                  <a href="">
+                  <a href="https://github.com/Code-Recursion/DSC-BIST">
                     <p className="text-light-grey">Contribute</p>
                   </a>
                 </div>

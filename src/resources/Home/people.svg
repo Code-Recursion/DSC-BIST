@@ -1,6 +1,6 @@
 <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M42.5 52.5V47.5C42.5 44.8478 41.4464 42.3043 39.5711 40.4289C37.6957 38.5536 35.1522 37.5 32.5 37.5H12.5C9.84783 37.5 7.3043 38.5536 5.42893 40.4289C3.55357 42.3043 2.5 44.8478 2.5 47.5V52.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M22.5 27.5C28.0228 27.5 32.5 23.0228 32.5 17.5C32.5 11.9772 28.0228 7.5 22.5 7.5C16.9772 7.5 12.5 11.9772 12.5 17.5C12.5 23.0228 16.9772 27.5 22.5 27.5Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M57.5 52.4997V47.4997C57.4983 45.284 56.7609 43.1316 55.4034 41.3805C54.0459 39.6294 52.1453 38.3786 50 37.8247" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M40 7.82471C42.151 8.37546 44.0576 9.62646 45.4191 11.3805C46.7806 13.1345 47.5196 15.2918 47.5196 17.5122C47.5196 19.7326 46.7806 21.8899 45.4191 23.6439C44.0576 25.398 42.151 26.649 40 27.1997" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42.5 52.5V47.5C42.5 44.8478 41.4464 42.3043 39.5711 40.4289C37.6957 38.5536 35.1522 37.5 32.5 37.5H12.5C9.84783 37.5 7.3043 38.5536 5.42893 40.4289C3.55357 42.3043 2.5 44.8478 2.5 47.5V52.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22.5 27.5C28.0228 27.5 32.5 23.0228 32.5 17.5C32.5 11.9772 28.0228 7.5 22.5 7.5C16.9772 7.5 12.5 11.9772 12.5 17.5C12.5 23.0228 16.9772 27.5 22.5 27.5Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M57.5 52.4997V47.4997C57.4983 45.284 56.7609 43.1316 55.4034 41.3805C54.0459 39.6294 52.1453 38.3786 50 37.8247" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M40 7.82471C42.151 8.37546 44.0576 9.62646 45.4191 11.3805C46.7806 13.1345 47.5196 15.2918 47.5196 17.5122C47.5196 19.7326 46.7806 21.8899 45.4191 23.6439C44.0576 25.398 42.151 26.649 40 27.1997" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
