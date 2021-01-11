@@ -1,3 +1,16 @@
+
+.div-bdr{
+  border-top:3px solid #7510f7;
+  border-bottom:3px solid #7510f7;
+}
+
+.parent-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 #img-wrap {
@@ -113,3 +126,4 @@ padding-top: 20px;
    }
    
  }
+
