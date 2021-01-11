@@ -16,7 +16,7 @@ const Contact = () => {
         <div id="heading-wraper">
           <h1 className="contact-heading">Contact Us</h1>
           <h2 className="contact-sub-heading">
-            Our Team is Happy to Answer your Questions
+            Our Team is Happy to Answer your Question's
           </h2>
         </div>
         <div id="contact-wraper">
@@ -66,7 +66,7 @@ const Contact = () => {
                     <img src={instagram} alt="" />
                   </a>
 
-                  <a href="#">
+                  <a rel="noreferrer" target="_blank" href="#">
                     <img src={facebook} alt="" />
                   </a>
 
