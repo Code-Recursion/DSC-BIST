@@ -133,13 +133,13 @@ const App = () => {
             <div className="team-heading">
               <h1 className="heading mb-5">Meet Our Team</h1>
               <p className="m-auto sub-heading">
-                The goal of
+                The goal of &nbsp;
                 <span className="text-purple">
                   Developer Student Club Bansal Institute of Science and Technology
                 </span>
-                is to create a strong community of passionate developers, helping students with
-                beginner to advanced knowledge through interactive and free workshops. The team is
-                ready to provide students with opportunities to attend amazing events and improve
+                &nbsp; is to create a strong community of passionate developers, helping students
+                with beginner to advanced level of knowledge through interactive and free workshops. The team
+                is ready to provide students with opportunities to attend amazing events and improve
                 their skills.
               </p>
             </div>
