@@ -1,7 +1,7 @@
-import React, {Component} from "react";
-import ParticlesBg from 'particles-bg';
+import React, { useState } from "react";
+import ParticlesBg from "particles-bg";
 
- // CSS Import
+// CSS Import
 import "../styles/team.css";
 import "../index.css";
 
@@ -15,145 +15,144 @@ import Surekha_Dhote from "../resources/team/avatar/Surekha_Dhote.jpeg";
 import Aakash_Panwar from "../resources/team/avatar/Aakash_Panwar.jpg";
 
 // fontAwesome;
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-import { render } from "@testing-library/react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faInstagram, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
-
-
-const Team = () => {
-	render()
+const App = () => {
+  const [team, setTeam] = useState([
     {
-		return (
-		<>
-        <section className="sec">
-            <div className="container">
-			<div class="team-description">
-				<div class="team-heading">
-					<h1 className="heading">Meet Our Team</h1>
-					<p className="sub-heading">The goal of the <span className="text-purple">DSC-BIST</span> team is to create a passionate developers through interactive and free workshops which is related to <span className="text-purple">coud computing, App Development, web Development, etc.</span> We collaborate to provide students with opportunities to attend amazing events and improve their skills.</p>
-				</div>
-			</div>
-		        <div className="row">
-		            <div className="col col-12 col-sm-6 col-md-4 col-lg-4">
-			            <div className="our-team">
-			                <div className="picture">
-				                <img className="img-fluid team-img" src={Ajay_Singh} />
-			                </div>
-			                <div className="team-content">
-				                <h3 className="name">Ajay Singh</h3>
-				                <h4 className="title"> Web Development</h4>
-			                </div>
-			                <ul className="social">
-				                <li><a href="https://www.linkedin.com/in/hello-ajay-singh/"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-				                <li><a href="https://github.com/Code-Recursion"><FontAwesomeIcon icon={faGithub} /></a></li>
-				                <li><a href="https://www.instagram.com/_invincible_aj_/"><FontAwesomeIcon icon={faInstagram}/></a></li>
-			                </ul>
-			            </div>
-		            </div>
-                    <div className="col col-12 col-sm-6 col-md-4 col-lg-4">
-			            <div className="our-team">
-			                <div className="picture">
-				                <img className="img-fluid team-img" src={Aarti_Khankul} />
-			                </div>
-			                <div className="team-content">
-				                <h3 className="name">Aarti khankul</h3>
-				                <h4 className="title">Android Development</h4>
-			                </div>
-			                <ul className="social">
-				                <li><a href="https://www.linkedin.com/in/aarti-khankul-2a562719b/"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-				                <li><a href="https://github.com/Aarti3530"><FontAwesomeIcon icon={faGithub} /></a></li>
-				                <li><a href="https://www.instagram.com/arru3530/"><FontAwesomeIcon icon={faInstagram}/></a></li>
-			                </ul>
-			            </div>
-		            </div>
-                    <div className="col col-12 col-sm-6 col-md-4 col-lg-4">
-			            <div className="our-team">
-			                <div className="picture">
-				                <img className="img-fluid team-img" src={Rupal_Gupta} />
-			                </div>
-			                <div className="team-content">
-				                <h3 className="name">Rupal Gupta</h3>
-				                <h4 className="title">Web Development</h4>
-			                </div>
-			                <ul className="social">
-				                <li><a href="https://www.linkedin.com/in/rupal-gupta-2bb32b1a8" ><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-				                <li><a href="https://github.com/Rupal-Gupta29"><FontAwesomeIcon icon={faGithub} /></a></li>
-				                <li><a><FontAwesomeIcon icon={faInstagram}/></a></li>
-			                </ul>
-			            </div>
-		            </div>
-                    <div className="col col-12 col-sm-6 col-md-4 col-lg-4">
-			            <div className="our-team">
-			                <div className="picture">
-				                <img className="img-fluid team-img" src={Surekha_Dhote} />
-			                </div>
-			                <div className="team-content">
-				                <h3 className="name">Surekha Dhote</h3>
-				                <h4 className="title">Web Developer</h4>
-			                </div>
-			                <ul className="social">
-				                <li><a href="https://www.instagram.com/surekhadhote0002/"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-				                <li><a href="https://github.com/Surekhadhote"><FontAwesomeIcon icon={faGithub} /></a></li>
-				                <li><a href="https://www.linkedin.com/in/surekha-dhote-626798187/"><FontAwesomeIcon icon={faInstagram}/></a></li>
-			                </ul>
-			            </div>
-		            </div>
-                    <div className="col col-12 col-sm-6 col-md-4 col-lg-4">
-			            <div className="our-team">
-			                <div className="picture">
-				                <img className="img-fluid team-img" src={Damini_Bisen} />
-			                </div>
-			                <div className="team-content">
-				                <h3 className="name">Damini Bisen</h3>
-				                <h4 className="title">web Designing</h4>
-			                </div>
-			                <ul className="social">
-				                <li><a href="https://www.linkedin.com/in/damini-bisen-6318761a6/"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-				                <li><a href="https://github.com/Damini02"><FontAwesomeIcon icon={faGithub} /></a></li>
-				                <li><a href="https://www.instagram.com/_.daminii._/"><FontAwesomeIcon icon={faInstagram}/></a></li>
-			                </ul>
-			            </div>
-		            </div>
-                    <div className="col col-12 col-sm-6 col-md-4 col-lg-4">
-			            <div className="our-team">
-			                <div className="picture">
-				                <img className="img-fluid team-img" src={Gyanendra_Kumar} />
-			                </div>
-			                <div className="team-content">
-				                <h3 className="name">Gyanendra Kumar</h3>
-				                <h4 className="title">Programmer</h4>
-			                </div>
-			                <ul className="social">
-				                <li><a href="https://www.linkedin.com/in/gaurav-verma-5b3a42193/"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-				                <li><a href="https://github.com/GauravGhost"><FontAwesomeIcon icon={faGithub} /></a></li>
-				                <li><a href="https://www.instagram.com/gaurav.ghost/" ><FontAwesomeIcon icon={faInstagram}/></a></li>
-			                </ul>
-			            </div>
-		            </div>
-                    <div className="col col-12 col-sm-6 col-md-4 col-lg-4">
-			            <div className="our-team">
-			                <div className="picture">
-				                <img className="img-fluid team-img" src={Aakash_Panwar} />
-			                </div>
-			                <div className="team-content">
-				                <h3 className="name">Aakash panwar</h3>
-				                <h4 className="title">Designing</h4>
-			                </div>
-			                <ul className="social">
-				                <li><a href="https://www.linkedin.com/mwlite/in/aakash-panwar-5bb2101a4"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-				                <li><a href="https://github.com/Aakash574"><FontAwesomeIcon icon={faGithub} /></a></li>
-				                <li><a href="https://www.instagram.com/aakash_panwar9/"><FontAwesomeIcon icon={faInstagram}/></a></li>
-			                </ul>
-			            </div>
-		            </div>
-		        </div>
-	        </div>
-        </section>
-		<ParticlesBg type="polygon" num={1} bg={true}/>
-		</>
-	);
-};
+      id: 1,
+      name: "Ajay Singh",
+      designation: "Lead",
+      linkedin: "https://www.linkedin.com/in/hello-ajay-singh/",
+      github: "https://github.com/Code-Recursion/",
+      twitter: "https://twitter.com/code_recursion/",
+      other: "",
+      picture: Ajay_Singh,
+    },
+    {
+      id: 2,
+      name: "Aarti Khankul",
+      designation: "Core Team Member",
+      linkedin: "https://www.linkedin.com/in/aarti-khankul-2a562719b/",
+      github: "https://github.com/Aarti3530/",
+      twitter: "https://twitter.com/",
+      other: "",
+      picture: Aarti_Khankul,
+    },
+
+    {
+      id: 3,
+      name: "Surekha Dhote",
+      designation: "Core Team Member",
+      linkedin: "https://www.linkedin.com/in/surekha-dhote-626798187/",
+      github: "https://github.com/Surekhadhote/",
+      twitter: "https://twitter.com/",
+      other: "",
+      picture: Surekha_Dhote,
+    },
+    {
+      id: 4,
+      name: "Rupal Gupta",
+      designation: "Core Team Member",
+      linkedin: "https://www.linkedin.com/in/rupal-gupta-2bb32b1a8/",
+      github: "https://github.com/Rupal-Gupta29/",
+      twitter: "https://twitter.com/",
+      other: "blog/webiste/medium/youtube",
+      picture: Rupal_Gupta,
+    },
+    {
+      id: 5,
+      name: "Damini Bisen",
+      designation: "Core Team Member",
+      linkedin: "https://www.linkedin.com/in/damini-bisen-6318761a6/",
+      github: "https://github.com/Damini02/",
+      twitter: "https://twitter.com/",
+      other: "",
+      picture: Damini_Bisen,
+    },
+    {
+      id: 6,
+      name: "Gyanendra Kumar",
+      designation: "Team Member",
+      linkedin: "https://www.linkedin.com/in/gaurav-verma-5b3a42193/",
+      github: "https://github.com/GauravGhost/",
+      twitter: "https://twitter.com/Gyanendrak874/",
+      other: "",
+      picture: Gyanendra_Kumar,
+    },
+    {
+      id: 7,
+      name: "Aakash Panwar",
+      designation: "Team Member",
+      linkedin: "https://www.linkedin.com/in/aakash-panwar-5bb2101a4/",
+      github: "https://github.com/Aakash574/",
+      twitter: "https://twitter.com/",
+      other: "",
+      picture: Aakash_Panwar,
+    },
+  ]);
+
+  const CardMarkup = () =>
+    team.map((member) => (
+      <div key={member.id} className="col col-12 col-sm-6 col-md-4 col-lg-4">
+        <div className="our-team">
+          <div className="picture">
+            <img className="img-fluid team-img" src={member.picture} alt="" />
+          </div>
+          <div className="team-content">
+            <h3 className="name">{member.name}</h3>
+            <h4 className="title"> {member.designation}</h4>
+          </div>
+          <ul className="social">
+            <li>
+              <a href={member.linkedin}>
+                <FontAwesomeIcon icon={faLinkedinIn} />
+              </a>
+            </li>
+            <li>
+              <a href={member.github}>
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
+            </li>
+            <li>
+              {/*<a href="https://www.instagram.com/_invincible_aj_/">
+              <FontAwesomeIcon icon={faInsmember.instagram} />
+            </a>*/}
+            </li>
+          </ul>
+        </div>
+      </div>
+    ));
+
+  return (
+    <>
+      <section className="sec">
+        <div className="container">
+          <div className="team-description">
+            <div className="team-heading">
+              <h1 className="heading mb-5">Meet Our Team</h1>
+              <p className="m-auto sub-heading">
+                The goal of
+                <span className="text-purple">
+                  Developer Student Club Bansal Institute of Science and Technology
+                </span>
+                is to create a strong community of passionate developers, helping students with
+                beginner to advanced knowledge through interactive and free workshops. The team is
+                ready to provide students with opportunities to attend amazing events and improve
+                their skills.
+              </p>
+            </div>
+          </div>
+
+          <div className="row">
+            <CardMarkup />
+          </div>
+        </div>
+      </section>
+      <ParticlesBg type="polygon" num={1} bg={true} />
+    </>
+  );
 };
 
-export default Team;
+export default App;
