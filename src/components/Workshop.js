@@ -53,7 +53,7 @@ const Workshop = () => {
           </div>
         </div>
       </section>
-      {/* workshop-3 end */}
+      {/* workshop-3 ended*/}
 
       {/* 1 workshop - 1 start */}
       <section>
@@ -73,19 +73,15 @@ const Workshop = () => {
                   <span className="text-bold-purple">&nbsp;Talk</span>
                 </h3>
                 <p className="sub  mt-5 ">
-                  opportunity to kickstart your career in google cloud and get
-                  hands on practice with Google Cloud Platform
+                  opportunity to kickstart your career in google cloud and get hands on practice
+                  with Google Cloud Platform
                 </p>
 
                 <div className="row " id="pack">
                   <div className="col-9">
                     <div className="text-center mt-lg-auto">
-                      <p className="p-0 m-0">
-                        Date: 9 Oct 2020 - 8:00PM (IST){" "}
-                      </p>
-                      <p className="p-0 m-0">
-                        Register: bitly.com/gcpcc-student
-                      </p>
+                      <p className="p-0 m-0">Date: 9 Oct 2020 - 8:00PM (IST) </p>
+                      <p className="p-0 m-0">Register: bitly.com/gcpcc-student</p>
                       <p className="p-0 m-0">Event Venue: Online Zoom meet</p>
                     </div>
                   </div>
@@ -98,7 +94,7 @@ const Workshop = () => {
             </div>
           </div>
         </div>
-        {/* 1 workshop - 1 end */}
+        {/* 2 workshop - 2 end */}
       </section>
     </>
   );

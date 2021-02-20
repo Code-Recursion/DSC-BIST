@@ -4,14 +4,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.13",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.2.2",
     "bootstrap": "^5.0.0-alpha1",
+    "owl.carousel": "^2.3.4",
+    "framer-motion": "^2.9.5",
+    "jquery": "^3.5.1",
+    "particles-bg": "^2.5.0",
     "react": "^17.0.1",
+    "react-background-animation": "^1.0.1",
     "react-dom": "^17.0.1",
+    "react-mouse-particles": "^1.1.2",
+    "react-particles-js": "^3.4.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
+    "react-tsparticles": "^1.18.11",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -37,5 +49,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "css-loader": "^5.0.1",
+    "less": "^3.12.2",
+    "less-loader": "^7.1.0",
+    "style-loader": "^2.0.0"
   }
 }

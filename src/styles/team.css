@@ -1,0 +1,256 @@
+* {
+    text-align: center;
+}
+
+.container .col {
+    margin: 1.2rem 0 3rem 0;
+}
+
+.container div.row {
+    margin: 0 150px 0 150px;
+    /* background-image: linear-gradient(#f5eaeaa8, #fff); */
+}
+
+.team-description {
+    height: 85vh;
+}
+
+.team-heading .sub-heading {
+    /* margin: 2rem 10rem 9rem 10rem; */
+}
+
+.team-heading .heading {
+    margin-top: 12rem;
+}
+
+.our-team {
+    padding: 20px 0 20px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px 3px #7410f76c;
+    height: 100%;
+    border-radius: 2.5%;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.our-team .picture {
+    display: inline-block;
+    height: 12.5rem;
+    width: 12.5rem;
+    margin-bottom: 20px;
+    z-index: 1;
+    position: relative;
+}
+
+.our-team .picture::before {
+    content: "";
+    width: 100%;
+    height: 0;
+    /* background-color: #7510F7; */
+    background-image: linear-gradient(-45deg, #7510F7, #994bff, #7116e9, #8819d2);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-size: 400% 400%;
+    transform: scale(4);
+    transition: all 0.5s linear 0s;
+    animation: gradient 8s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.our-team:hover .picture::before {
+    height: 75.5%;
+}
+
+.our-team .picture img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 8px 1px #7510F7;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 0.4s ease 0s;
+}
+
+.our-team:hover .picture img {
+    box-shadow: 0 0 0 8px #000000;
+    transform: scale(0.9);
+}
+
+.our-team .title {
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    color: #7410f7;
+    z-index: 1;
+}
+
+.our-team .name {
+    font-size: 1.5rem;
+    color: #9a9a9a;
+}
+
+.our-team:hover .title {
+    color: white;
+    transition: 2s;
+}
+
+.our-team:hover .name {
+    color: white;
+    transition: 1.2s;
+}
+
+.our-team .social {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    transition: all 0.5s ease 0s;
+    z-index: 1;
+}
+
+.our-team:hover .social {
+    bottom: 0;
+}
+
+.our-team .social li {
+    display: inline-block;
+}
+
+.our-team .social li a {
+    display: block;
+    padding: 3px 10px 3px 10px;
+    font-size: 17px;
+    color: #7510F7;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.our-team .social li a:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.name,
+.title {
+    position: relative;
+    z-index: 1;
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    .container div.row {
+        margin: 0 15px 0 15px;
+    }
+
+    .team-heading .sub-heading {
+        margin: 2rem 6rem 9rem 6rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .our-team .picture {
+        height: 10.5rem;
+        width: 10.5rem;
+    }
+
+    .container div.row {
+        margin: 0 0 0 0;
+    }
+
+    .team-heading .sub-heading {
+        margin: 2rem 6rem 9rem 6rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    .container div.row {
+        margin: 0 0 0 0;
+    }
+
+    .team-heading .sub-heading {
+        margin: 2rem 0 9rem 0;
+    }
+
+    .team-heading .sub-heading {
+        margin: 2rem 6rem 9rem 6rem;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .container div.row {
+        margin: 0 0 0 0;
+    }
+
+    .team-heading .sub-heading {
+        margin: 2rem 0 9rem 0;
+    }
+}
+
+@media(min-width:401px) and (max-width: 575px) {
+    .container div.row {
+        margin: 0 3.2rem 0 3.2rem;
+    }
+
+    .team-heading .sub-heading {
+        margin: 2rem 0 9rem 0;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 480px) {
+    .container div.row {
+        margin: 0 30px 0 30px;
+    }
+
+    .team-heading .sub-heading {
+        margin: 2rem 0 9rem 0;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+
+    .container div.row {
+        margin: 0 15px 0 15px;
+    }
+
+    .team-heading .sub-heading {
+        margin: 2rem 0 9rem 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .our-team .picture {
+        height: 10.5rem;
+        width: 10.5rem;
+    }
+
+    .container div.row {
+        margin: 0 15px 0 15px;
+    }
+
+    .team-heading .sub-heading {
+        margin: 2rem 0 9rem 0;
+    }
+}
